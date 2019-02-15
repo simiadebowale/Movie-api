@@ -1,0 +1,19 @@
+{
+  "name": "workingwithapis",
+  "version": "1.0.0",
+  "description": "working with api and using require",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "simi Adebowale",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "faker": "^4.1.0",
+    "locus": "^2.0.1",
+    "request": "^2.88.0",
+    "require": "^2.4.20"
+  }
+}

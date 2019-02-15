@@ -1,0 +1,18 @@
+<% include partials/header %>
+
+<h1>Results</h1>
+
+    <div><a href="/">Search Again?</a></div>
+
+    <% parsedData["Search"].forEach(function(movie){ %>
+    <div>
+        <p><strong><%= movie["Title"]%></strong> - <em><%= movie["Year"]%></em> 
+    (<%=movie["Type"]%>)</p> 
+    <img src="<%= movie["Poster"]%>">
+    </div>
+    <% }) %>
+    
+    
+    
+    
+    <% include partials/footer %>
